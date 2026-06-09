@@ -1,0 +1,78 @@
+{
+  "configVersion": "v3",
+  "app": {
+    "appId": 83750,
+    "appName": "计算器",
+    "appType": "app",
+    "version": {
+      "code": 2,
+      "name": "2.0.0"
+    },
+    "icon": "icon.png",
+    "vender": "Anonymous",
+    "description": "智能计算器"
+  },
+  "runtime": {
+    "apiVersion": {
+      "minVersion": "3.0",
+      "compatible": "3.0.0",
+      "target": "3.0.0"
+    }
+  },
+  "permissions": [
+    "device:os.local_storage",
+    "device:os.network",
+    "data:os.device.info"
+  ],
+  "targets": {
+    "balance": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/calculator",
+            "page/bookshelf",
+            "page/reader"
+          ],
+          "defaultPage": "page/calculator"
+        },
+        "app-side": {
+          "path": "app-side/index"
+        },
+        "setting": {
+          "path": "setting/index"
+        }
+      },
+      "platforms": [
+        { "name": "balance", "deviceSource": 8519936, "st": "r", "sr": "w480" },
+        { "name": "balance", "deviceSource": 8519937, "st": "r", "sr": "w480" },
+        { "name": "balance", "deviceSource": 8519939, "st": "r", "sr": "w480" },
+        { "name": "trex3", "deviceSource": 8716544, "st": "r", "sr": "w480" },
+        { "name": "trex3", "deviceSource": 8716545, "st": "r", "sr": "w480" },
+        { "name": "trex3", "deviceSource": 8716547, "st": "r", "sr": "w480" },
+        { "name": "cheetahpro", "deviceSource": 8126720, "st": "r", "sr": "w480" },
+        { "name": "cheetahpro", "deviceSource": 8126721, "st": "r", "sr": "w480" },
+        { "name": "gtr4", "deviceSource": 7930112, "st": "r", "sr": "w466" },
+        { "name": "gtr4", "deviceSource": 7930113, "st": "r", "sr": "w466" },
+        { "name": "gtr4", "deviceSource": 7864577, "st": "r", "sr": "w466" },
+        { "name": "active2", "deviceSource": 8913152, "st": "r", "sr": "w466" },
+        { "name": "active2", "deviceSource": 8913153, "st": "r", "sr": "w466" },
+        { "name": "active2", "deviceSource": 8913155, "st": "r", "sr": "w466" },
+        { "name": "active2", "deviceSource": 8913159, "st": "r", "sr": "w466" },
+        { "name": "active2", "deviceSource": 10092800, "st": "r", "sr": "w466" },
+        { "name": "active2", "deviceSource": 10092801, "st": "r", "sr": "w466" },
+        { "name": "active2", "deviceSource": 10092803, "st": "r", "sr": "w466" },
+        { "name": "active2", "deviceSource": 10092807, "st": "r", "sr": "w466" }
+      ],
+      "designWidth": 480
+    }
+  },
+  "i18n": {
+    "zh-CN": {
+      "appName": "计算器"
+    },
+    "en-US": {
+      "appName": "Calculator"
+    }
+  },
+  "defaultLanguage": "zh-CN"
+}
